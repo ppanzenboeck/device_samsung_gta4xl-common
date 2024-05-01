@@ -154,7 +154,8 @@ PRODUCT_SET_DEBUGFS_RESTRICTIONS := true
 
 # Keylayout
 PRODUCT_COPY_FILES += \
-    $(COMMON_PATH)/configs/idc/sec_e-pen.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/sec_e-pen.idc
+    $(COMMON_PATH)/configs/idc/sec_e-pen.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/sec_e-pen.idc \
+    $(COMMON_PATH)/configs/keylayout/sec_touchscreen.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/sec_touchscreen.kl
 
 # Keymaster
 PRODUCT_PACKAGES += \
