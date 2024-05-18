@@ -15,6 +15,7 @@
 #
 DERP_BUILDTYPE=Official
 DERP_VERSION_APPEND_TIME_OF_DAY=true
+TARGET_NOT_USES_BLUR=true
 
 COMMON_PATH := device/samsung/gta4xl-common
 
