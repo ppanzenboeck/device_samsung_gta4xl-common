@@ -17,6 +17,9 @@ DERP_BUILDTYPE=Official
 DERP_VERSION_APPEND_TIME_OF_DAY=true
 TARGET_NOT_USES_BLUR=true
 
+#Viper4Android
+$(call inherit-product, vendor/ViPER4AndroidFXRepackaged/config.mk)
+
 COMMON_PATH := device/samsung/gta4xl-common
 
 # Get non-open-source specific aspects
@@ -41,7 +44,7 @@ PRODUCT_PACKAGES += \
     audio.r_submix.default \
     audio.usb.default
 
-PRODUCT_PACKAGES += \
+#PRODUCT_PACKAGES += \
     SamsungDAP
 
 # Remove Packages
@@ -61,7 +64,7 @@ PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/configs/audio/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths.xml \
     $(COMMON_PATH)/configs/audio/mixer_paths_cs47l15.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_cs47l15.xml
 
-TARGET_EXCLUDES_AUDIOFX := true
+#TARGET_EXCLUDES_AUDIOFX := true
 
 # Bluetooth
 PRODUCT_PACKAGES += \

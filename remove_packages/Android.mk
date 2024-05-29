@@ -54,7 +54,8 @@ LOCAL_OVERRIDES_PACKAGES += \
     PrebuiltGmail \
     talkback \
     FilesPrebuilt \
-    ScribePrebuilt
+    ScribePrebuilt \
+    Accord
 
 ifneq ($(filter gta4xlwifi, $(TARGET_DEVICE)),)
     LOCAL_OVERRIDES_PACKAGES += \
