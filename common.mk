@@ -17,8 +17,8 @@ DERP_BUILDTYPE=Official
 DERP_VERSION_APPEND_TIME_OF_DAY=true
 TARGET_NOT_USES_BLUR=true
 
-#Viper4Android
-$(call inherit-product, vendor/ViPER4AndroidFXRepackaged/config.mk)
+# Viper4Android
+$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
 
 COMMON_PATH := device/samsung/gta4xl-common
 
