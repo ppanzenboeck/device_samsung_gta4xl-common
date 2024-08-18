@@ -122,7 +122,6 @@ TARGET_KEYMASTER_VARIANT := samsung
 
 ## Manifest
 # HIDL
-<<<<<<< HEAD
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
     hardware/samsung/vintf/samsung_framework_compatibility_matrix.xml \
     vendor/derp/config/device_framework_matrix.xml
