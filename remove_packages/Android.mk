@@ -43,24 +43,28 @@ Flipendo \
 more...
 
 #vendor/gms
+#vendor/gms
 LOCAL_OVERRIDES_PACKAGES += \
-    CalculatorGooglePrebuilt \
-    CalendarGooglePrebuilt \
-    Chrome-Stub \
+    CalculatorGoogle \
+    CalendarGoogle \
+    Chrome64 \
     GoogleContacts \
-    GoogleTTS \
     Maps \
     Photos \
-    PrebuiltGmail \
+    Gmail2 \
     talkback \
-    FilesPrebuilt \
-    ScribePrebuilt \
-    Accord
+    FilesGoogle \
+    YouTube \
+    Drive \
+    PersonalSafety \
+    Accord \
+    FossifyGallery \
+    com.google.android.apps.dialer.call_recording_audio.features
 
 ifneq ($(filter gta4xlwifi, $(TARGET_DEVICE)),)
     LOCAL_OVERRIDES_PACKAGES += \
         GoogleDialer \
-        PrebuiltBugle
+        Messages
 endif
 
 
