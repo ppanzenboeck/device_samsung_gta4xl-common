@@ -44,18 +44,21 @@ more...
 
 #vendor/gms
 LOCAL_OVERRIDES_PACKAGES += \
-    CalculatorGooglePrebuilt \
-    CalendarGooglePrebuilt \
-    Chrome-Stub \
+    CalculatorGoogle \
+    CalendarGoogle \
+    Chrome64 \
     GoogleContacts \
-    GoogleTTS \
     Maps \
     Photos \
-    PrebuiltGmail \
+    Gmail2 \
     talkback \
-    FilesPrebuilt \
-    ScribePrebuilt \
-    Accord
+    FilesGoogle \
+    YouTube \
+    Drive \
+    PersonalSafety \
+    Messages \
+    Accord \
+    FossifyGallery
 
 ifneq ($(filter gta4xlwifi, $(TARGET_DEVICE)),)
     LOCAL_OVERRIDES_PACKAGES += \
