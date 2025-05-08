@@ -278,3 +278,14 @@ PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/configs/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf
 
 PRODUCT_CFI_INCLUDE_PATHS += hardware/samsung_slsi/scsc_wifibt/wpa_supplicant_lib
+
+# DerpFest Flags
+DERPFEST_BUILD_TYPE := Official
+TARGET_NOT_USES_BLUR := true
+
+# RemovePackages
+PRODUCT_PACKAGES += \
+    RemovePackages
+
+# ViPER4Android
+$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
