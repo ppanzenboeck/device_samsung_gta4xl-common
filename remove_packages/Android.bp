@@ -19,6 +19,11 @@ android_app_import {
          "PersonalSafety",
          "Accord",
          "FossifyGallery",
+         "Jelly",
+         "Etar",
+         "Updater",
+         "GoogleDialer",
+         "Messages",
      ],
  	dex_preopt: {
  		enabled: false,
