@@ -56,6 +56,10 @@ PRODUCT_COPY_FILES += \
 
 TARGET_EXCLUDES_AUDIOFX := true
 
+# Add external hardware midi support
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/media/android.hardware.midi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.midi.xml
+
 # Bluetooth
 PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.0-impl:64 \
