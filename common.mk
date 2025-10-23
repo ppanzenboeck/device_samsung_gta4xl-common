@@ -282,6 +282,7 @@ PRODUCT_CFI_INCLUDE_PATHS += hardware/samsung_slsi/scsc_wifibt/wpa_supplicant_li
 # DerpFest Flags
 DERPFEST_BUILD_TYPE := Official
 TARGET_NOT_USES_BLUR := true
+DERPFEST_VERSION_APPEND_TIME_OF_DAY := true
 
 # RemovePackages
 PRODUCT_PACKAGES += \
